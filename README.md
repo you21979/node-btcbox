@@ -157,6 +157,7 @@ api.tradeList().then(console.log);
     amount_outstanding: 0 } ]
 ```
 
+tradeView(id)
 ```
 api.tradeView('8888').then(console.log);
 { id: 8888,
