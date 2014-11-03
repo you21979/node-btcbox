@@ -146,9 +146,9 @@ api.wallet('btc').then(console.log)
 { result: true, address: 'btcaddress' }
 ```
 
-tradeList()
+tradeList(pair, option)
 ```
-api.tradeList().then(console.log);
+api.tradeList(pair).then(console.log);
 [ { id: '8888',
     datetime: '2014-10-31 03:12:15',
     type: 'sell',
@@ -177,14 +177,14 @@ api.tradeView('8888').then(console.log);
 
 tradeCancel(orderid)
 ```
-api.tradeCancel('99999').then(console.log);
-{"result":true, "id":"99999"}
+api.tradeCancel('8888').then(console.log);
+{"result":true, "id":"8888"}
 ```
 
 tradeAdd(pair, amount, price, type)
 ```
 api.tradeAdd('btc', 1.5, 37000, 'sell').then(console.log);
-{"result":true, "id":"99999"}
+{"result":true, "id":"8888"}
 ```
 
 
