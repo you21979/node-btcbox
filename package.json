@@ -1,7 +1,7 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "btcbox",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "dependencies": {
     "bluebird" : "",
@@ -21,6 +21,7 @@
   },
   "keywords": [
     "trade api",
+    "bitcoin",
     "btcbox"
   ],
   "license": "MIT",
